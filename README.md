@@ -9,7 +9,7 @@ a = np.array([1, 2, 3, 4, 5])
 
 print(a)
 
-#Arreglo con matriz
+#Arreglo con matriz.
 
 b= np.array([[1,2,3],[4,5,6]])
 
