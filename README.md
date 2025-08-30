@@ -159,5 +159,36 @@ IMAGEN CODIGO 1 <img width="1863" height="405" alt="image" src="https://github.c
 IMAGEN CODIGO 2 <img width="1890" height="408" alt="image" src="https://github.com/user-attachments/assets/a26ca0b8-0e52-402d-84e7-cf3b0b458c95" />
 
 
+# 5. LINSPACE → VALORES EQUIESPACIADOS
+
+# PRIMER CODIGO DE EJEMPLO 
+
+import numpy as np
+
+temp1 = np.linspace(0, 100, 5)   # 0, 25, 50, 75, 100
+
+temp2 = np.linspace(0, 100, 11)  # cada 10 grados
+
+print("Temperaturas 5 valores:", temp1)
+
+print("Temperaturas 11 valores:", temp2)
+
+# SEGUNDO CODIGO DE EJEMPLO 
+
+import numpy as np
+
+progreso1 = np.linspace(0, 1, 5)  # 0%, 25%, 50%, 75%, 100%
+
+progreso2 = np.linspace(0, 1, 11) # 0%, 10%, ..., 100%
+
+print("Progreso 5 pasos:", progreso1)
+
+print("Progreso 11 pasos:", progreso2)
+
+# ADJUNTO DE IMAGEN
+
+IMAGEN CODIGO 1 <img width="1903" height="431" alt="image" src="https://github.com/user-attachments/assets/7e38f8a6-d813-4208-886b-f1de423c3257" />
+IMAGEN CODIGO 2 <img width="1887" height="461" alt="image" src="https://github.com/user-attachments/assets/b6da7a0e-7b21-411c-8828-06dd78bef804" />
+
 
 
