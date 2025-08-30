@@ -226,3 +226,54 @@ IMAGEN CODIGO 2 <img width="1912" height="452" alt="image" src="https://github.c
 
 
 
+# 7. ÁLGEBRA LINEAL (DOT) → PRODUCTO DE MATRICES
+
+# PRIMER CODIGO DE EJEMPLO 
+
+import numpy as np
+
+A1 = np.array([[1, 2], [3, 4]])
+
+B1 = np.array([[2, 0], [1, 2]])
+
+producto1 = np.dot(A1, B1)
+
+A2 = np.array([[0, 1], [1, 0]])
+
+B2 = np.array([[1, 1], [1, 1]])
+
+producto2 = np.dot(A2, B2)
+
+print("Producto matrices 1:\n", producto1)
+
+print("Producto matrices 2:\n", producto2)
+
+
+
+# SEGUNDO CODIGO DE EJEMPLO 
+
+import numpy as np
+
+C1 = np.array([[1, 2], [3, 4], [5, 6]])
+
+D1 = np.array([[1, 0, 1], [0, 1, 0]])
+
+producto3 = np.dot(C1, D1)
+
+C2 = np.array([[2, 1], [0, 1], [1, 0]])
+
+D2 = np.array([[1, 2, 3], [4, 5, 6]])
+
+producto4 = np.dot(C2, D2)
+
+print("Producto matrices 3x2 y 2x3:", producto3)
+
+print("Producto matrices 3x2 y 2x3:", producto4)
+
+
+# ADJUNTO DE IMAGEN
+
+IMAGEN CODIGO 1 <img width="1918" height="677" alt="image" src="https://github.com/user-attachments/assets/ad3488a1-3148-4ae6-a9b6-aeef3584c60a" />
+
+IMAGEN CODIGO 2 <img width="1918" height="696" alt="image" src="https://github.com/user-attachments/assets/31201399-a1ad-4c84-b198-cd30096d2258" />
+
