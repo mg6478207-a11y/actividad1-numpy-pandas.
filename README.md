@@ -44,6 +44,29 @@
 
   <img width="367" height="186" alt="image" src="https://github.com/user-attachments/assets/3550f4eb-08dd-4d47-adaa-8bb72f31d6cf" />
 
+  #Tipos de datos (columnas)
+  
+  print(df.dtypes)  
+  
+  #Convertir Edad a float
+  
+  df["Edad"] = df["Edad"].astype(float)
+  
+  print(df.dtypes)
+  
+  
+  #Convertir columna booleana
+  
+  df["Activo"] = [True, False, True]
+  
+  df["Activo"] = df["Activo"].astype(int)
+  
+  print(df)
+  
+  print(df.dtypes)
+
+  <img width="564" height="496" alt="image" src="https://github.com/user-attachments/assets/3a03db18-288f-4cc6-9e74-c72ea0d277d4" />
+
 
 
 
