@@ -71,7 +71,7 @@ IMAGEN CODIGO 1  <img width="1918" height="616" alt="image" src="https://github.
 
 IMAGEN CODIGO 2  <img width="1893" height="632" alt="image" src="https://github.com/user-attachments/assets/b7782b59-d933-4b1f-8e8f-ff8c663569f4" />
 
-# SUM → SUMA DE ELEMENTOS
+# 3. SUM → SUMA DE ELEMENTOS
 
 # PRIMER CODIGO DE EJEMPLO 
 
@@ -125,6 +125,38 @@ IMAGEN CODIGO 2.1 <img width="1861" height="475" alt="image" src="https://github
 IMAGEN CODIGO 2.2 <img width="1913" height="587" alt="image" src="https://github.com/user-attachments/assets/192a2b15-040d-46de-9765-84bf825c105d" />
 
 
+
+# 4. ARANGE → RANGO DE VALORES
+
+# PRIMER CODIGO DE EJEMPLO 
+
+import numpy as np
+
+rango1 = np.arange(0, 11, 2)
+
+rango2 = np.arange(1, 11, 2)  # Números impares
+
+print("Números pares:", rango1)
+
+print("Números impares:", rango2))
+
+
+# SEGUNDO CODIGO DE EJEMPLO 
+
+import numpy as np
+
+horas_dia = np.arange(0, 24, 3)  # 0, 3, 6, ..., 21
+
+horas_noche = np.arange(0, 24, 6)  # 0, 6, 12, 18
+
+print("Horas día (cada 3h):", horas_dia)
+
+print("Horas noche (cada 6h):", horas_noche)
+
+# ADJUNTO DE IMAGEN
+
+IMAGEN CODIGO 1 <img width="1863" height="405" alt="image" src="https://github.com/user-attachments/assets/30d3ee1c-7305-4823-a64b-b92a7b3ac1d4" />
+IMAGEN CODIGO 2 <img width="1890" height="408" alt="image" src="https://github.com/user-attachments/assets/a26ca0b8-0e52-402d-84e7-cf3b0b458c95" />
 
 
 
