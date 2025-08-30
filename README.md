@@ -191,4 +191,38 @@ IMAGEN CODIGO 1 <img width="1903" height="431" alt="image" src="https://github.c
 IMAGEN CODIGO 2 <img width="1887" height="461" alt="image" src="https://github.com/user-attachments/assets/b6da7a0e-7b21-411c-8828-06dd78bef804" />
 
 
+# 6. RANDOM → NÚMEROS ALEATORIOS
+
+# PRIMER CODIGO DE EJEMPLO 
+
+import numpy as np
+
+aleatorio1 = np.random.rand(3, 2)
+
+aleatorio2 = np.random.rand(2, 3)
+
+print("Matriz 3x2:\n", aleatorio1)
+
+print("Matriz 2x3:\n", aleatorio2)
+
+
+# SEGUNDO CODIGO DE EJEMPLO 
+
+import numpy as np
+
+vector1 = np.random.rand(5)
+
+vector2 = np.random.rand(5)
+
+print("Vector 1:", vector1)
+
+print("Vector 2:", vector2)
+
+# ADJUNTO DE IMAGEN
+
+IMAGEN CODIGO 1 <img width="1915" height="542" alt="image" src="https://github.com/user-attachments/assets/8bb51c41-be56-4745-8eec-f95287be4f14" />
+
+IMAGEN CODIGO 2 <img width="1912" height="452" alt="image" src="https://github.com/user-attachments/assets/bb93fb57-189a-40b8-88e7-c6bb7c624bfc" />
+
+
 
