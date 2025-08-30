@@ -1,4 +1,4 @@
-Pandas – Creación y manipulación de DataFrames y Series
+**C) Pandas – Creación y manipulación de DataFrames y Series**
 
   import pandas as pd
   
@@ -32,6 +32,18 @@ Pandas – Creación y manipulación de DataFrames y Series
   print(df["Edad"])
   
   <img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/4e7cfdfa-58ed-4170-ae99-b7b649adc230" />
+
+  
+  #Cargar datos desde diccionario
+  
+  data = {"A":[1,2,3], "B":[4,5,6]}
+  
+  df2 = pd.DataFrame(data)
+  
+  print(df2)
+
+  <img width="367" height="186" alt="image" src="https://github.com/user-attachments/assets/3550f4eb-08dd-4d47-adaa-8bb72f31d6cf" />
+
 
 
 
